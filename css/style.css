@@ -5,6 +5,11 @@
   float: left;
 }
 
+#main-navbar ul li{
+  display: block;
+  
+}
+
 #navbar-container{
   left: 50%;
   position: relative;
@@ -12,15 +17,16 @@
 }
 
 #navbar-container ul{
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	right: 50%;
-	list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  list-style-type: none;
 }
 
 #navbar-container ul li a{
+  text-decoration: none;
   display: block;
   color: #fff;
   padding: 10px 20px;
