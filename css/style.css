@@ -40,3 +40,29 @@
 #onpage{
   text-decoration: underline overline;
 }
+
+#sidebar-container{
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  right: 0%;
+  background-color: red;
+  
+}
+
+#sidebar-container ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar-container ul li a{
+  padding: 15px 0;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  
+}
+
+#sidebar-container ul li a:hover{
+  background-color: #000;
+}
