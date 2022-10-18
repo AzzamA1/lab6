@@ -5,10 +5,19 @@
   float: left;
 }
 
+#navbar-container{
+  left: 50%;
+  position: relative;
+  float: left;
+}
+
 #navbar-container ul{
-	left: 50%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
 	position: relative;
-	float: left;
+	right: 50%;
+	list-style-type: none;
 }
 
 #navbar-container ul li a{
@@ -20,5 +29,8 @@
 
 #navbar-container ul li a:hover{
   background-color: #000;
+}
+
+#onpage{
   text-decoration: underline overline;
 }
