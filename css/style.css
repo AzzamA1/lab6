@@ -2,8 +2,6 @@
   background-color: blue; 
   overflow: hidden; 
   width: 100%; 
-  left: 50%; 
-  right: 50%;
   position: relative; 
   float: left; 
 }
@@ -12,9 +10,11 @@
   position: relative; 
   float: left; 
   display: block; 
+  left: 50%; 
 }
 
 #navbar-container ul{
+  right: 50%;
   margin: 0; 
   padding: 0; 
   position: relative; 
