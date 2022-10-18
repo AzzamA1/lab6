@@ -4,13 +4,13 @@
   width: 100%; 
   position: relative; 
   float: left; 
+  display: block; 
 }
 
 #navbar-container{
   left: 50%; 
   position: relative; 
   float: left; 
-  display: block; 
 }
 
 #navbar-container ul{
