@@ -2,22 +2,22 @@
   background-color: blue; 
   overflow: hidden; 
   width: 100%; 
+  left: 50%; 
+  right: 50%;
+  position: relative; 
+  float: left; 
+}
+
+#navbar-container{ 
   position: relative; 
   float: left; 
   display: block; 
-}
-
-#navbar-container{
-  left: 50%; 
-  position: relative; 
-  float: left; 
 }
 
 #navbar-container ul{
   margin: 0; 
   padding: 0; 
   position: relative; 
-  right: 50%; 
   list-style-type: none; 
 }
 
